@@ -1,6 +1,5 @@
 const User = require('../models/User');
 const Adresses = require('../models/Adresses');
-const { index } = require('./UserController');
 
 module.exports = {
     async index(req, res) {
