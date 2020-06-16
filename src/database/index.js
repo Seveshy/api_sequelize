@@ -10,5 +10,6 @@ User.init(connection);
 Adresses.init(connection);
 
 Adresses.associate(connection.models);
+User.associate(connection.models);
 
 module.exports = connection;
